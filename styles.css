@@ -194,11 +194,6 @@
     color: #eaeded;
 }
 
-#main-project {
-    height: 80%;
-    width: 80%;
-}
-
 /*Moblie response*/
 @media screen and (max-width: 768px) {
     .main_container {
@@ -229,6 +224,11 @@
         margin-top: 1rem;
         font-size: 1.5rem;
     }
+
+    #main-project {
+        height: 80%;
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -244,6 +244,11 @@
     .main_content p {
         margin-top: 2rem;
         font-size: 1.5rem;
+    }
+
+    #main-project {
+        height: 80%;
+        width: 80%;
     }
 }
 
